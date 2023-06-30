@@ -57,10 +57,42 @@ const BooksAdd =({myData})=>{
        <br/>
    {/* books Girnes*/}
       <label forHTML="bookAdition">
-      Book Adition
-      <input type="text" placeholder="Book Generation year" required
-      autoComplete="off" id="bookAdition"
-      onChange={booksGirne} value={bookGirne}/>
+      Book Generation &nbsp;
+        <select onChange={booksGirne} name="Gen" id="bookAdition">
+      <option value="">
+        Select Gen
+        </option>
+        <option value="1st Gen">
+        1st Gen
+        </option>
+        <option value="2nd Gen">
+        2nd Gen
+        </option>
+        <option value="3rd Gen">
+        3rd Gen
+        </option>
+        <option value="4th Gen">
+        4th Gen
+        </option>
+        <option value="5th Gen">
+        5th Gen
+        </option>
+        <option value="6th Gen">
+        6th Gen
+        </option>
+        <option value="7th Gen">
+        7th Gen
+        </option>
+        <option value="8th Gen">
+        8th Gen
+        </option>
+        <option value="9th Gen">
+        9th Gen
+        </option>
+        <option value="10th Gen">
+        10th Gen
+        </option>
+        </select>
       </label>
       <br/>
       <button type="submit">

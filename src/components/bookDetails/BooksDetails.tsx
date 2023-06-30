@@ -32,7 +32,7 @@ const BooksDetails=(props)=>{
          </tr>
          <tr>
           <td>
-        <span>Books Adition:</span> 
+        <span>Books Generation:</span> 
           </td>
           <td>
           <p class="bookAdition">
