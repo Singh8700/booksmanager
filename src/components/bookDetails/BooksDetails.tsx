@@ -11,31 +11,27 @@ const BooksDetails=(props)=>{
        <article key={item.id}>
         <table border="1">
          <tr>
-           <td>
-            <span>Books Name:</span>
-           </td>
            <th>
               <h1 class="bookTitle">
+              <span>Books Title is </span>
+              <br/>
                 {item.bookTitle}
               </h1>
            </th>
          </tr>
          <tr>
-           <td>
-           <span>Author Name:</span>
-           </td>
            <th>
              <h2 class="bookAuthor">
-              {item.bookAuthor}
+       <span>This Book Author is 👇 </span><br/>
+           Dear , {item.bookAuthor}
+
             </h2>
            </th>
          </tr>
          <tr>
           <td>
-        <span>Books Generation:</span> 
-          </td>
-          <td>
           <p class="bookAdition">
+        <span>Books is </span>
             {item.bookGirne}
           </p>
           </td>

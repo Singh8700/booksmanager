@@ -121,7 +121,7 @@ button:focus-visible {
         justify-content: space-around;
         align-items: center;
         flex-wrap: wrap;
-        word-break: break-all;
+        word-break: all;
       }
       article{
         width:45%;
@@ -134,7 +134,7 @@ button:focus-visible {
         text-align: left;
       }
       article > * h1{
-        font-size: 2rem;
+        font-size: 1.8rem;
       }
       table{
         width:100%;
@@ -146,12 +146,13 @@ button:focus-visible {
       }
      table > * td,table > * th{
        border: none ;
+       text-align: center;
        padding: 0rem 0.2rem;
      }
       article > * span{
         color:var(--color);
         font-weight:600;
-        font-size:1.2rem;
+        font-size:1rem;
         padding: 0.5rem 0;
       }
       .bookTitle{

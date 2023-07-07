@@ -58,38 +58,38 @@ const BooksAdd =({myData})=>{
    {/* books Girnes*/}
       <label forHTML="bookAdition">
       Book Generation &nbsp;
-        <select onChange={booksGirne} name="Gen" id="bookAdition">
+        <select onChange={booksGirne} name="Generation" id="bookAdition">
       <option value="">
         Select Gen
         </option>
-        <option value="1st Gen">
+        <option value="1st Generation">
         1st Gen
         </option>
-        <option value="2nd Gen">
+        <option value="2nd Generation">
         2nd Gen
         </option>
-        <option value="3rd Gen">
+        <option value="3rd Generation">
         3rd Gen
         </option>
-        <option value="4th Gen">
+        <option value="4th Generation">
         4th Gen
         </option>
-        <option value="5th Gen">
+        <option value="5th Generation">
         5th Gen
         </option>
-        <option value="6th Gen">
+        <option value="6th Generation">
         6th Gen
         </option>
-        <option value="7th Gen">
+        <option value="7th Generation">
         7th Gen
         </option>
-        <option value="8th Gen">
+        <option value="8th Generation">
         8th Gen
         </option>
-        <option value="9th Gen">
+        <option value="9th Generation">
         9th Gen
         </option>
-        <option value="10th Gen">
+        <option value="10th Generation">
         10th Gen
         </option>
         </select>
